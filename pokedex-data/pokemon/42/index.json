@@ -1,0 +1,38 @@
+{
+	"abilities": [
+		{
+			"ability": {
+				"name": "Inter Focus"
+			},
+			"is_hidden": false,
+			"slot": 1
+		},
+		{
+			"ability": {
+				"name": "Infiltrator"
+			},
+			"is_hidden": true,
+			"slot": 2
+		}
+	],
+    "height": "5 feet 3 inches",
+	"location": "Skylight Cave",
+    "name": "Golbat",
+	"weight": "121.3 pounds",
+    "image":  "/pokedex-data/images/042Golbat.png",
+    "types": [{
+        "slot": 1,
+        "type": {
+            "name": "Poison"
+        }
+    }, {
+        "slot": 2,
+        "type": {
+            "name": "Flying"
+        }
+    }],
+    "description": "Golbat are known to live in dark caves and suck the blood of people and pokemon alike. They do not stop until they are satisfied, though that often leaves them too heavy to fly afterwards.",
+    "notes": "By pure chance I managed to catch one while being surropunded by a whole group of them. My dear Golby Jack is surprisingly loyal, though a lower level than expected... I worry about them sometimes.",
+    "bulba": "<a href='https://bulbapedia.bulbagarden.net/wiki/Golbat_(Pok%C3%A9mon)'>Click Me!</a>",
+    "class": "Bat"
+}

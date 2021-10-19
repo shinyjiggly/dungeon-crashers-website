@@ -1,0 +1,40 @@
+{
+	"abilities": [
+		{
+			"ability": {
+				"name": "Magma Armor"
+			},
+			"is_hidden": false,
+			"slot": 1
+		},
+        {
+            "ability": {
+                "name": "Flame Body"
+            },
+            "is_hidden": false,
+            "slot": 2
+        },
+		{
+			"ability": {
+				"name": "Weak Armor"
+			},
+			"is_hidden": true,
+			"slot": 3
+		}
+	],
+    "height": "2 feet 4 inches",
+	"location": "Purity Caldera",
+    "name": "Slugma",
+	"weight": "77.2 pounds",
+    "image":  "/pokedex-data/images/218Slugma.png",
+    "types": [{
+        "slot": 1,
+        "type": {
+            "name": "Fire"
+        }
+    }],
+    "description": "This pokemon must never sleep, or risk hardening into brittle stone. They tend to stay in groups together within volcanic areas to stay hot enough to move.",
+    "notes": "These things are practically slithering fire hazards! Beware about gang-ups, Rise almost got their ass handed to them once because of this!",
+    "bulba": "<a href='https://bulbapedia.bulbagarden.net/wiki/Slugma_(Pok%C3%A9mon)'>Click Me!</a>",
+    "class": "Lava"
+}

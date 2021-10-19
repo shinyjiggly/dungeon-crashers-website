@@ -1,0 +1,45 @@
+{
+	"abilities": [
+		{
+			"ability": {
+				"name": "Obvious"
+			},
+			"is_hidden": false,
+			"slot": 1
+		},
+		{
+			"ability": {
+				"name": "Own Tempo"
+			},
+			"is_hidden": false,
+			"slot": 2
+		},
+        {
+            "ability": {
+                "name": "Regenerator"
+            },
+            "is_hidden": true,
+            "slot": 3
+        }
+	],
+    "height": "3 feet 11 inches",
+	"location": "Slowpoke Island",
+    "name": "Kantonian Slowpoke",
+	"weight": "79.4 pounds",
+    "image":  "/pokedex-data/images/079Slowpoke.png",
+    "types": [{
+        "slot": 1,
+        "type": {
+            "name": "Water"
+        }
+    }, {
+        "slot": 2,
+        "type": {
+            "name": "Psychic"
+        }
+    }],
+    "description": "Slowpoke are known to be paitient anglers with their tail. However, sometimes they forget they're even fishing at all, on account of finding it hard to register pain. A slowpoke's tail can be removed in times of extreme duress and it will grow back in a few weeks. The tails are a delicacy in a few places.",
+    "notes": "lavenderSiren and powerKitten both have a slowpoke, kantonian and galar formes, repectively. They are very nice to cuddle with, as long as they aren't hungry.",
+    "bulba": "<a href='https://bulbapedia.bulbagarden.net/wiki/Slowpoke_(Pok%C3%A9mon)'>Click Me!</a>",
+    "class": "Dopey"
+}

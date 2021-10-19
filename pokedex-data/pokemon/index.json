@@ -1,0 +1,10 @@
+{
+	"count": 5,
+	"results": [
+		{ "name": "Bulbasaur", "url": "/pokedex-data/pokemon/1/" },
+		{ "name": "Zubat", "url": "/pokedex-data/pokemon/41/" },
+		{ "name": "Golbat", "url": "/pokedex-data/pokemon/42/" },
+		{ "name": "Kantonian Slowpoke", "url": "/pokedex-data/pokemon/79/" },
+		{ "name": "Slugma", "url": "/pokedex-data/pokemon/218/" }
+	]
+}

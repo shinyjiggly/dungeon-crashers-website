@@ -1,0 +1,38 @@
+{
+	"abilities": [
+		{
+			"ability": {
+				"name": "Overgrow"
+			},
+			"is_hidden": false,
+			"slot": 1
+		},
+		{
+			"ability": {
+				"name": "Chlorophyll"
+			},
+			"is_hidden": true,
+			"slot": 2
+		}
+	],
+    "height": "2 feet 4 inches",
+	"location": "New Charcherry Town",
+    "name": "Bulbasaur",
+	"weight": "15.2 pounds",
+    "image":  "/pokedex-data/images/001Bulbasaur.png",
+    "types": [{
+        "slot": 1,
+        "type": {
+            "name": "Grass"
+        }
+    }, {
+        "slot": 2,
+        "type": {
+            "name": "Poison"
+        }
+    }],
+    "description": "A seed grows on Bulbasaur's back from the day it is born. It allows them to be sustained by its stored nutrients and photosynthesis if needed.",
+    "notes": "I met a bulbasaur wearing a fedora one day. They handed me a pokeball using their long vines. A curious little creature. Possibly a member of an exploration team?",
+    "bulba": "<a href='https://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)'>Click Me!</a>",
+    "class": "Seed"
+}
