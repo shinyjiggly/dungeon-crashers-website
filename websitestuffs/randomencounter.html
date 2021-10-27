@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SBARG 2.5: Dungeon Crashers</title>
+		<link rel="stylesheet" href="dungeoncrasherstyle.css" type="text/css">
+		<link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+		    <script type="text/javascript">
+function showSpoiler(obj)
+    {
+    var inner = obj.parentNode.getElementsByTagName("div")[0];
+    if (inner.style.display == "none")
+        inner.style.display = "";
+    else
+        inner.style.display = "none";
+    }
+    </script>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="menuarea"></div>
+		
+		<div class="mainbox">
+		<h2>-- Pokemon Random Encounter Generation System --</h2>
+		<p>Instructions: hit the diceroll buttons in order from left to right. 
+		<br>Populate the Encounter pool with what would make sense for the area, adjust the radio buttons and hit the last button.</p>
+		<img src="blued20.png" width="100px" height="100px" title="roll teh dice!" />
+		<p></p>
+<input type="button" id="btnSearch" value="Roll for encounter distance!" onclick="GetValue();" />
+<p>You rolled a <span id="message" >...</span></p>
+<input type="button" id="btnSearch2" value="button 2" onclick="GetValue2();" />
+<p id="message2" >ddd</p>
+
+
+		<script>
+		function GetValue()
+{
+    var myarray= new Array
+    ("1!<br>You literally bumped into something you're so close to your encounter.<br>",
+    "2!<br>You are so close that you can't possibly walk away so easily.<br>",
+    "3!<br>You are very very very close to your encounter right now.<br>",
+    "4!<br>You are very very close to your encounter right now.<br>",
+    "5!<br>You are very close to your encounter right now.<br>",
+    "6!<br>You are pretty close to your encounter right now.<br>",
+    "7!<br>You see your encounter a short distance away.<br>",
+    "8!<br>You see your encounter a moderate distance away<br>",
+    "9!<br>Your encounter is a reachable distance away.<br>",
+    "10!<br>You see something within range!<br>",
+	"11!<br>Your encounter is just barely far enough that you would have to walk towards it to be in range.<br>",
+	"12!<br>You see your encounter, but its a distance to approch.<br>",
+	"13!<br>Your encounter will have to be pursued to be reached.<br>",
+	"14!<br>Your encounter is slightly far from your location.<br>",
+	"15!<br>Your encounter is moderately far from your location.<br>",
+	"16!<br>Your encounter is just plain far from your location.<br>",
+	"17!<br>Your encounter is very far from your location.<br>",
+	"18!<br>Your encounter is so distant its hardly even worth calling an encounter.<br>",
+	"19!<br>You might be able to see something, but just barely.<br>",
+	"20!<br>Uh, what encounter? there's no encounter to be seen around here.<br>");
+    var random = myarray[Math.floor(Math.random() * myarray.length)];
+   document.getElementById("message").innerHTML=random;
+   document.getElementById("arrPrint1").innerHTML = myarray;
+}
+function GetValue2()
+{
+    var myarray2= new Array("itema","itemb","itemc");
+    var random = myarray2[Math.floor(Math.random() * myarray2.length)];
+   document.getElementById("message2").innerHTML=random;
+}</script>
+
+<div class="spoiler" style="border: 1px dashed gray; padding: 1px;"> <!--pesterlog start-->
+    <input type="button" onclick="showSpoiler(this);" value="Show all possible rolls" />
+
+		<p id="arrPrint1">roll the die first.</p>
+	</div>
+	
+
+
+		</div>
+		<div id="footer"><br></div>
+	</body>
+	<script src="addstuff.js"></script> <!--the script stuff-->		
+</html>
