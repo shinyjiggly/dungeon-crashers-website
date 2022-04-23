@@ -22,14 +22,18 @@ function showSpoiler(obj)
 		
 		<div class="mainbox">
 		<h2>-- Pokemon Random Encounter Generation System --</h2>
-		<p>Instructions: hit the diceroll buttons in order from left to right. 
-		<br>Populate the Encounter pool with what would make sense for the area, adjust the radio buttons and hit the last button.</p>
-		<img src="blued20.png" width="100px" height="100px" title="roll teh dice!" />
+				<img src="blued20.png" width="100px" height="100px" title="roll teh dice!" />
 		<p></p>
+		<p>Instructions:
+		<br>Find a pool of pokemon and/or other encounterable entities, preferribly 5 of them. Note them for later.</p>
+		<p>Hit the diceroll buttons for encounter distance and difficulty.</p>
+		<p>Then use the Weighted system to input the five items and their commonality weight.<br>
+		Do note that it is made in rpg maker 2003 so you will have to navigate via directional keys.</p>
+
 <input type="button" id="btnSearch" value="Roll for encounter distance!" onclick="GetValue();" />
 <p>You rolled a <span id="message" >...</span></p>
-<input type="button" id="btnSearch2" value="button 2" onclick="GetValue2();" />
-<p id="message2" >ddd</p>
+<input type="button" id="btnSearch2" value="Roll for encounter diffuculty (combat-centric)" onclick="GetValue2();" />
+<p>You rolled a <span id="message2" >...</span></p>
 
 
 		<script>
@@ -62,17 +66,40 @@ function showSpoiler(obj)
 }
 function GetValue2()
 {
-    var myarray2= new Array("itema","itemb","itemc");
+    var myarray2= new Array
+	("1!<br>An absolute cakewalk. Might not even be worth trying.<br>",
+    "2!<br>A very very easy encounter, you might feel guilty if you use too much force.<br>",
+    "3!<br>A very easy encounter to handle. Probably not satisfying.<br>",
+    "4!<br>An easy encounter.<br>",
+    "5!<br>Just a routine easy encounter.<br>",
+    "6!<br>Not very much of a challenge, but might take a few hits.<br>",
+    "7!<br>A little easier than expected, but at least puts up a fight.<br>",
+    "8!<br>A smooth challenge, a bit on the easy side though.<br>",
+    "9!<br>An average encounter, not much to write home about here.<br>",
+    "10!<br>A fairly average encounter, maybe like, one surprise but that's it.<br>",
+	"11!<br>An average challenge. Might work up a sweat but its no big deal.<br>",
+	"12!<br>A slightly harder than average challenge.<br>",
+	"13!<br>A harder than average challenge.<br>",
+	"14!<br>A decent challenge. A bit to keep up with but could be worse.<br>",
+	"15!<br>A solid challenge. This is no time for underestimating an encounter!<br>",
+	"16!<br>A kinda tough challenge, be careful!<br>",
+	"17!<br>A tough challenge. Stay sharp!<br>",
+	"18!<br>A hard emcounter. Focus on your goal and victory may be waiting.<br>",
+	"19!<br>A very hard encounter. Not for the faint of heart.<br>",
+	"20!<br>This is probably the hardest encounter you'll face. Good luck, you'll need it.<br>");
     var random = myarray2[Math.floor(Math.random() * myarray2.length)];
    document.getElementById("message2").innerHTML=random;
 }</script>
-
-<div class="spoiler" style="border: 1px dashed gray; padding: 1px;"> <!--pesterlog start-->
+<!--
+<div class="spoiler" style="border: 1px dashed gray; padding: 1px;"> 
     <input type="button" onclick="showSpoiler(this);" value="Show all possible rolls" />
 
 		<p id="arrPrint1">roll the die first.</p>
 	</div>
-	
+	-->
+	<p><a href="https://www.theworldofpokemon.com/locationGenerator.html">Pokemon group/location generator</a> (offsite, but very useful)</p>
+	<p><a href="player-js/index.html">Weighted random object generation system</a> (max 5 items)</p>
+
 
 
 		</div>
