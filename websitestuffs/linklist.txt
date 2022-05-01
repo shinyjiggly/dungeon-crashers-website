@@ -30,7 +30,7 @@ look at my golbat
 -- duct tape zone --
 
 Duct Tape? (LoPaR guide)
-Pokemon Encounter Generator
+-Pokemon Encounter Generator
 Systems used for combat and such
 Link to Mage Quest
 Current Time
