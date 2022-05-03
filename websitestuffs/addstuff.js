@@ -13,7 +13,7 @@ let menuareaHTML = '<h2>Links</h2><ul> <li><a href="' + 'dungeon.html">What is a
 '<li><a href="' + 'ooc_systems.html">Systems used for combat and such</a></li>' +
 '<li><a href="' + 'https://letssosl.boards.net/thread/274/pokemon-world-mage-quest">Mage Quest</a></li>' +
 '<li><a href="' + 'http://jingloria.wertercatt.com/oldsite/pichuinfo.htm">Pichu Quest (pre-scratch Mage Quest)</a></li>' +
-'<li><a href="' + 'ooc_starterclock.html">Current Time</a></li>' +
+'<li><a href="' + 'starterclock.html">Current Time</a></li>' +
 '<li><a href="' + 'ooc_logs.html">Logs</a></li>' +
 '<li><a href="' + 'http://jingloria.wertercatt.com/lostpawns/">Lost Pawns Website</a></li>' + 
 '<li><a href="' + 'http://www.ifelse95.xyz/index.html">ifelse95\'s Website</a></li>' + 

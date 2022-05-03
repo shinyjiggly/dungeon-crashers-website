@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0060)https://jingloria.wertercatt.com/lostpawns/starterclock.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Timey things</title>
+</head>
+<body>
+<style type="text/css">   
+a:link {color:#ffffff;text-decoration:none;}
+a:visited {color:#bacafe;text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+.wheel1 {
+    position: absolute;
+    top: 50%;
+	z-index: -100;
+    left: 50%;
+    margin: -6% 0 0 -8%;
+    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;
+    animation:spin 4s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.wheel2 {
+    position: absolute;
+    top: 50%;
+	z-index: -99;
+    left: 50%;
+    margin: -6% 0 0 -8%;
+    -webkit-animation:spin 7s linear infinite;
+    -moz-animation:spin 7s linear infinite;
+    animation:spin 7s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.wheel3 {
+    position: absolute;
+    top: 50%;
+	z-index: -98;
+    left: 50%;
+    margin: -6% 0 0 -8%;
+    -webkit-animation:spin 9s linear infinite;
+    -moz-animation:spin 9s linear infinite;
+    animation:spin 9s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.wheel4 {
+    position: absolute;
+    top: 50%;
+	z-index: -97;
+    left: 50%;
+    margin: -6% 0 0 -8%;
+    -webkit-animation:spin 17s linear infinite;
+    -moz-animation:spin 17s linear infinite;
+    animation:spin 17s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+
+                               /* I got some /style/ */
+body {
+	background-image: url(simon-berger-autumnal.png),url(planetglow.png),url(jeremy-thomas-unsplash.jpg);
+	background-position: bottom,bottom,0% 0%;
+	background-repeat: no-repeat;
+	padding: 20px;
+	background-attachment: scroll,local,fixed;
+	background-size: auto,auto,100vmax;
+	background-color: #000221;
+	background-origin: padding-box;
+}                         /* SPACE */
+p {color:#BACAFE;                                        /* Well I can't just leave BACAFE by itself, now can I? */
+text-align:center;                                       /* This aligns the text in the center of whatever box it is in. */
+} 
+#splanet_block                                           
+{   
+    position: absolute;
+    top: 20%;
+	z-index: 10;
+    left: 60%;                                                     /* This is the CSS for the Starter Planet Clock. */
+width:15%;
+border:4px solid rgb(226,111,203);                              /* pink!!! */
+margin:auto;                                             /* This centers the block in the screen, might change this later. */
+background-color: rgba(226,111,203,0.5); 
+/* float: right; */
+padding: 3px;                          
+} 
+
+#dplanet_block                                           
+{   
+    position: absolute;
+    top: 20%;
+	z-index: 10;
+    left: 80%;                                                     /* This is the CSS for the desertia Clock. */
+width:15%;
+border:4px solid rgb(255,192,0);                              /* Attempt at making a shade of gold */
+margin:auto;                                             /* This centers the block in the screen, might change this later. */
+background-color: rgba(255,192,0,0.5); 
+/* float: right; */
+padding: 3px;                               /* Halfway Blend between gold and BACAFE. */
+} 
+
+#kplanet_block                                           
+{     
+    position: absolute;
+    top: 20%;
+	z-index: 10;
+    left: 10%;                                                    /* This is the CSS for the korous Clock. */
+width:15%;
+background-color: rgba(234,43,0,0.5);                                /* somekinda reddish */
+margin: auto;                                             /* This centers the block in the screen, might change this later. */
+border: 4px solid rgb(234,43,0); 
+float: left;   
+padding: 3px;                               /* dark red */
+} 
+
+#splanet_village                                           
+{
+   text-align: left;
+   margin: 1%;
+   padding: 8%;
+}
+#kplanet_village                                           
+{
+   text-align:left;
+   margin: 1%;
+   padding: 8%;
+}
+
+#v0earth_block                                           
+{                                                             /* This is the CSS for the Earth Clock... with timing to events on other planets */
+width:40%;
+border:4px solid rgb(0,0,255);                                /* Blue. */
+ margin:auto;                                              /* This centers the block in the screen, might change this later. */
+background-color: rgba(0,0,255,0.5);                                /* Halfway Blend between Blue and BACAFE. */
+}
+
+#v1block                                           
+{      
+color:#ffffff;                                                  /* This is the CSS for the  */
+width:200px;
+border: 4px solid #220A33;                               /* purple */
+margin:auto;                                             /* This centers the block in the screen, might change this later. */
+background-color: #666091;   
+   padding: 8%; 
+float: left;   /* purple */
+}
+
+#unix_block                                           
+{                                                        /* This is the CSS for the Unix Clock. */
+width:15%;
+border:4px solid rgb(0,0,0);                                /* Black. */
+margin:auto;                                             /* This centers the block in the screen, might change this later. */
+background-color: rgba(0,0,0,0.5); 	/* Halfway Blend between Black and BACAFE. */                             
+}
+
+#rise                                        
+{           
+    position: absolute;
+    top: 30%;
+    left: 25%;                                             /* This is the CSS for Rise's text */
+width:10%;
+color:#FF0000; 
+background-color: #6D0505;                                /* dark red */
+margin: 3%;                                             /* This centers the block in the screen, might change this later. */
+border: 4px solid #220000; 
+  
+padding: 3px;                               /* dark red */
+} 
+
+/*look at me, I'm floating!*/
+
+@keyframes floaty {
+    0% {
+      transform: translateY(0%);
+transition-timing-function: ease-in-out;
+    }
+
+    50% {
+      transform: translateY(-50%);
+transition-timing-function: ease-in-out;
+}
+    100% {
+      transform: translateY(0%);
+transition-timing-function: ease-in-out;
+    }
+  }
+  
+.stage{
+    animation: floaty 5000ms;
+    animation-iteration-count: infinite; /*new*/
+    width:200px;
+    height:200px;
+    margin:2em;
+    position:relative;
+    left: 31%; 
+    background:none;
+    overflow:show;
+  }
+  .stage div{
+    background:none;
+    position: absolute;
+  }
+
+</style>
+<script>
+var myVar=setInterval(function(){univeral_loop()},1000); // It actually would check every millisecond if that 1000 was not there. //
+ 
+function univeral_loop()
+{
+var unix = Math.round(+new Date() / 1000);
+var splanet_year = Math.floor((unix-1387670400)/38750400);          // splanet stands for Starter Planet, obviously. //
+var splanet_yrem = ((unix-1387670400) % 38750400);
+var splanet_day  = Math.floor(splanet_yrem / 93600);
+var splanet_drem = splanet_yrem % 93600;
+var splanet_hour = Math.floor(splanet_drem / 3600);
+var splanet_hrem = splanet_drem % 3600;
+var splanet_min  = Math.floor(splanet_hrem / 60);
+var splanet_sec  = splanet_hrem % 60;
+
+//red giant star, 5 AU away .5 earth mass
+
+//365 x 5 = 1825 (korous length)days in  
+
+//each full orbit has 1825 earth-length days (43800 hours)
+//day length: a little faster ~.8 earth length day rotation length 18 hours
+//2305.2631578947368421052631578947
+
+//64800 seconds in a day
+
+//roughly 43800 hours in a year
+//3600 seconds in an hour
+//157680000 seconds in a year
+	      
+//25 months (dirtball transits) with 73 days each
+
+//9000 (earth length) years of cultural history
+
+//clock shows only up to 9 then flips over from am to pm
+//(it currently shows the time in 18 hour format)
+
+//9/4/450 date of The Reckoning
+//1/1/0 date of "cultural emergence" 
+//(the first date that chronos ever contacted anyone. this is where he anchored the beginning of the calendar, which has no actual bearing on anything aside from being a measurement of time.)
+
+var kplanet_year = Math.floor((unix+70956000000)/157680000);          // kplanet stands for korous //
+
+var kplanet_yrem = ((unix+70956000000) % 157680000); //current date in seconds, plus 450 years, modulo 1 year?
+var kplanet_month = Math.floor(kplanet_yrem / 4860000);//75 days	
+									
+var kplanet_day  = Math.floor(kplanet_yrem / 64800);		
+//disclaimer: most of these are wrong
+var kplanet_drem = kplanet_yrem % 64800; //how many seconds in a day
+var kplanet_hour = Math.floor(kplanet_drem / 3600); //how many seconds in an hour
+var kplanet_hrem = kplanet_drem % 3600;
+var kplanet_min  = Math.floor(kplanet_hrem / 60);
+var kplanet_sec  = kplanet_hrem % 60;
+
+
+//clock thign starter planet
+if (splanet_sec<10)
+  {
+  splanet_secmin=":0";
+  }
+else
+  {
+  splanet_secmin=":";
+  } 
+  
+  if (splanet_min<10)
+  {
+  splanet_hourmin=":0";
+  }
+else
+  {
+  splanet_hourmin=":";
+  } 
+  
+  if (splanet_day>13) //if the day amount is larger than 13
+  {var dcal=splanet_day%10 }//modulo by 10 to get a base number
+else
+  {var dcal=splanet_day} //if no, just keep it straight.
+  
+if (dcal==1) //if it modulo'd to 1
+  {var nend="st" }//it is the 1st
+else if (dcal==2)
+  {var nend="nd"}
+else if (dcal==3)
+  {var nend="rd"}
+else
+  {var nend="th"} //it works now
+  
+if (splanet_hour < 5) //if hour is smaller than 5
+	{var splanet_light = "really late night (go to bed >_>)"}
+else if (splanet_hour == 13)
+	{var splanet_light = "noooooon"}	
+else if (splanet_hour > 26) //if the our is bigger than 26
+	{var splanet_light = "late night"}
+else if (splanet_hour == 26)
+	{var splanet_light = "midnight (watch out for werewolves-owait that's just kimura)"}	
+else if (splanet_hour > 20)
+	{var splanet_light = "night"}	
+else if (splanet_hour > 18)
+	{var splanet_light = "evening"}	
+else if (splanet_hour > 13)
+	{var splanet_light = "afternoon"}
+else if (splanet_hour > 8)
+	{var splanet_light = "morning (EGGS AND BACON)"}	
+else if (splanet_hour > 4) //if hour is larger than 5
+	{var splanet_light = "dawn (which sun tho)"}
+else
+	{var splanet_light = "I DON'T KNOW, OKAY?"} //if all else fails, I have no idea
+  //Sunrise: 6 to 7
+  //Noon: 13
+  //Sunset: 19 to 20
+  //Midnight: 26
+  
+//clock thign korous
+if (kplanet_sec<10)
+  {
+  kplanet_secmin=":0";
+  }
+else
+  {
+  kplanet_secmin=":";
+  } 
+  
+  if (kplanet_min<10)
+  {
+  kplanet_hourmin=":0";
+  }
+else
+  {
+  kplanet_hourmin=":";
+  } 
+  
+  if (kplanet_day>13) //if the day amount is larger than 13
+  {var dcal=kplanet_day%10 }//modulo by 10 to get a base number
+else
+  {var dcal=kplanet_day} //if no, just keep it straight.
+  
+if (dcal==1) //if it modulo'd to 1
+  {var nend="st" }//it is the 1st
+else if (dcal==2)
+  {var nend="nd"}
+else if (dcal==3)
+  {var nend="rd"}
+else
+  {var nend="th"} //it works now
+  
+if (kplanet_hour < 3) //if hour is smaller than 3
+	{var kplanet_light = "dark hours"}
+else if (kplanet_hour == 9)
+	{var kplanet_light = "NOON"}	
+else if (kplanet_hour > 18) //if the our is bigger than 26
+	{var kplanet_light = "late night"}
+else if (kplanet_hour == 18)
+	{var kplanet_light = "midnight (watch out for werewolves-owait that's just kimura)"}	
+else if (kplanet_hour > 16)
+	{var kplanet_light = "night"}	
+else if (kplanet_hour > 14)
+	{var kplanet_light = "evening"}	
+else if (kplanet_hour > 9)
+	{var kplanet_light = "afternoon"}
+else if (kplanet_hour > 7)
+	{var kplanet_light = "morning"}	
+else if (kplanet_hour > 2) //if hour is larger than 3
+	{var kplanet_light = "dawn "}
+else
+	{var kplanet_light = "I DON'T KNOW, OKAY?"} //if all else fails, I have no idea
+  //Sunrise: 4 to 6
+  //Noon: 9
+  //Sunset: 15 to 16
+  //Midnight: 18  
+  
+  //day length 18 hours
+  
+document.getElementById('splanet_dayname').innerHTML = "It is currently the " + splanet_day + nend + " day of the Year " + splanet_year;
+document.getElementById('splanet_clock').innerHTML = "In New Charcherry town, the time is " + splanet_hour + splanet_hourmin + splanet_min + splanet_secmin + splanet_sec + ", " + splanet_light ;
+
+document.getElementById('kplanet_dayname').innerHTML = "It is currently the " + kplanet_day + nend + " day of the Year " + kplanet_year + ", in month " + kplanet_month + ".";
+document.getElementById('kplanet_clock').innerHTML = "In Hourglass City, the time is " + kplanet_hour + kplanet_hourmin + kplanet_min + kplanet_secmin + kplanet_sec + ", " + kplanet_light ;
+
+
+var UTCdate = new Date();
+var earthdate = UTCdate.toUTCString(); 
+document.getElementById('v0earth_gmt').innerHTML = earthdate;
+// here please <--------------------
+var DZTdate = new Date();
+var desertiadate = DZTdate.toUTCString(); 
+document.getElementById('v0earth_cst').innerHTML = desertiadate;
+
+var pastdate =new Date();
+//pastdate.setTime(-44582400);
+//pastdate.setDate(-516);
+pastdate.setTime(UTCdate-44582400000);
+var meteordate = pastdate.toUTCString(); 
+//document.getElementById('meteor_tiem').innerHTML = meteordate;
+
+var splanet_vanyear  = Math.floor((unix-1387670400)/38750400);
+var splanet_vanyear2 = Math.floor(38750400+38750400*splanet_vanyear);
+var splanet_vanyear3 = Math.floor(splanet_vanyear2-(unix-1387670400));
+var vanyear_day  = Math.floor(splanet_vanyear3 / 86400);
+var vanyear_drem = splanet_vanyear3 % 86400;
+var vanyear_hour = Math.floor(vanyear_drem / 3600);
+var vanyear_hrem = vanyear_drem % 3600;
+var vanyear_min  = Math.floor(vanyear_hrem / 60);
+var vanyear_sec  = vanyear_hrem % 60;
+document.getElementById('splanet_newyear').innerHTML = vanyear_day + " Days, " + vanyear_hour + " Hours, " + vanyear_min + " Minutes, and " + vanyear_sec + " Seconds " + "until Year " + (splanet_year+1) + " on Starter Planet.";
+document.getElementById('unix_clock').innerHTML = unix;
+} 
+                                                
+</script>  
+
+<!-- you're welcome -->
+
+<div id="v0earth_block">
+<p><b>Vanilla Earth</b></p>
+<p id="v0earth_gmt">Tue, 03 May 2022 05:09:05 GMT</p>
+<p id="splanet_newyear">85 Days, 6 Hours, 50 Minutes, and 54 Seconds until Year 7 on Starter Planet.</p>
+</div>
+
+<p></p>
+
+<div id="splanet_block">
+<p><b>Starter Planet</b></p>
+<p id="splanet_dayname">It is currently the 335rd day of the Year 6</p>
+<p id="splanet_clock">In New Charcherry town, the time is 7:09:06, dawn (which sun tho)</p>
+<p id="splanet_village">Quick guide:<br>Sunrise: 6 to 7<br>Noon: 13<br>Sunset: 19 to 20<br>Midnight: 26
+</p>
+</div>
+<div id="dplanet_block">
+<p><b>Desertia</b></p>
+<p id="v0earth_cst">Tue, 03 May 2022 05:09:05 DZT</p>
+<p>DZT is functionally the same as CST, daylight savings and all.<br>
+PLEASE FIX ME...</p>
+</div>
+
+<div id="kplanet_block">
+<p><b>Korous</b></p>
+<p id="kplanet_dayname">It is currently the 1153rd day of the Year 460, in month 15.</p>
+<p id="kplanet_clock">In Hourglass City, the time is 11:09:06, afternoon</p>
+<p id="kplanet_village">Quick guide:<br>Sunrise: 4 to 6<br>Noon: 9<br>Sunset: 15 to 16<br>Midnight: 18
+</p>
+</div>
+
+<div id="unix_block">
+<p><b>Unix Time</b></p>
+<p id="unix_clock">1651554546</p>
+</div>
+
+<div id="rise">"Don't mind me, just looking cool."</div>
+<section class="stage"><div style="top: 0.113067px;"><img src="./starterclock_files/risewheelturner.png"></div></section>
+<!--<script>
+
+
+var bouncy = document.querySelector(".stage div"),
+  start = 0;
+
+function sine() {
+
+  bouncy.style.top = 15 * Math.sin(start) + 5 + 'px';
+  start += 0.05;
+}
+window.setInterval(sine, 1000 / 30);
+                                                 
+
+</script> -->
+
+<p>
+<img class="wheel1" src="./starterclock_files/gearwheel.png" alt="" width="320" height="320">
+<img class="wheel2" src="./starterclock_files/zodiacwheel.png" alt="" width="320" height="320">
+<img class="wheel3" src="./starterclock_files/clockwheel.png" alt="" width="320" height="320">
+<img class="wheel4" src="./starterclock_files/sunwheel.png" alt="" width="320" height="320">
+
+</p>
+
+<p><br><br><br><br><br><br><br><br><br></p>
+<div id="unix_block"><p><a href="index.html"> &lt;== Back to landing page</a><br>
+<a href="ooc_dtape.html"> ((&lt;== Back to Duct Tape Zone))</a><br></p></div>
+<p><br><br><br><br><br><br><br></p>
+
+</body></html>
