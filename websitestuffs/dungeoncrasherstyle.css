@@ -51,10 +51,40 @@ ul {
 	margin-left: auto;
 	margin-right: auto;
 }
-	img
+	img:
 	{
 		object-fit: contain;
 		max-width: 100%;
+	}
+	
+	.biobox
+{
+	background-color: #2b4875;
+	border: 3px single #a5a5df;
+	border-radius: 5px;
+	width: 630px;
+	padding: 10px;
+	text-align: left;
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.strip
+{
+	color: #111111;
+	background-color: none;
+	background-image: linear-gradient(#eee, #bacafe);
+	width: max-content;
+	max-width: 99%;
+	padding: 3px;
+	border: 3px double #bacafe;
+}
+	.biopic
+	{
+		background-color: #ffffff;
+		float: right;
+		border: 3px solid #aaa;
 	}
 #header {
 	text-align: center;
