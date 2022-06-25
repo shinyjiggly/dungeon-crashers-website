@@ -1,12 +1,12 @@
 //menuarea
 let menuareaHTML = '<h2>Links</h2><ul> <li><a href="' + 'dungeon.html">What is a voidco dungeon?</a></li>' + 
-'<li><a href="' + 'crashers.html">Meet the Dungeon Crashers</a></li>' +
-'<li><a href="' + 'locations.html">Locations of Interest</a></li>' +
-'<li><a href="' + 'pokemons.html">Pokemon Data</a></li>' +
+'<li><a href="' + 'crashers.html">Meet the Dungeon Crashers (UNDER CONSTRUCTION!)</a></li>' +
+'<li><a href="' + 'locations.html">Locations of Interest (UNDER CONSTRUCTION!)</a></li>' +
+'<li><a href="' + 'pokemons.html">Pokemon Data (UNDER CONSTRUCTION!)</a></li>' +
 '<li><a href="' + 'missions.html">Unfinished Missions</a></li>' +
 '<li><a href="' + 'https://mspfa.com/?s=38989&p=1">None Pizza With Left Beef</a></li>' +
 '<li><a href="' + 'https://charcherry-weekly.tumblr.com/">Charcherry Weekly</a></li>' +
-'<li><a href="' + 'golby.html">look at my golbat</a></li></ul>' +
+'<li><a href="' + 'friend.html">look at my pokemon</a></li></ul>' +
 '<hr><hr>' +
 '<h2>The Duct-tape Zone</h2><ul> <li><a href="' + 'ooc_dtape.html">...Duct tape?</a></li>' + 
 '<li><a href="' + 'ooc_pokencounter.html">Pokemon Encounter Generator</a></li>' +
@@ -21,13 +21,13 @@ let menuareaHTML = '<h2>Links</h2><ul> <li><a href="' + 'dungeon.html">What is a
 
 //icmenuarea
 let icmenuareaHTML = '<h2>Links</h2><ul> <li><a href="' + 'dungeon.html">What is a voidco dungeon?</a></li>' + 
-'<li><a href="' + 'crashers.html">Meet the Dungeon Crashers</a></li>' +
-'<li><a href="' + 'locations.html">Locations of Interest</a></li>' +
-'<li><a href="' + 'pokemons.html">Pokemon Data</a></li>' +
+'<li><a href="' + 'crashers.html">Meet the Dungeon Crashers (UNDER CONSTRUCTION!)</a></li>' +
+'<li><a href="' + 'locations.html">Locations of Interest (UNDER CONSTRUCTION!)</a></li>' +
+'<li><a href="' + 'pokemons.html">Pokemon Data (UNDER CONSTRUCTION!)</a></li>' +
 '<li><a href="' + 'missions.html">Unfinished Missions</a></li>' +
 '<li><a href="' + 'https://mspfa.com/?s=38989&p=1">None Pizza With Left Beef</a></li>' +
 '<li><a href="' + 'https://charcherry-weekly.tumblr.com/">Charcherry Weekly</a></li>' +
-'<li><a href="' + 'golby.html">look at my golbat</a></li></ul>' +
+'<li><a href="' + 'friend.html">look at my pokemon</a></li></ul>' +
 '<hr>' +
 '<h2>Other Links</h2><ul> <li><a href="' + 'http://jingloria.wertercatt.com/">Jingloria Website</a></li>' + 
 '<li><a href="' + 'desertia.robotics">Desertia Website</a></li>' +
