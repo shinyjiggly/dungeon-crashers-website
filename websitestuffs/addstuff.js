@@ -1,8 +1,10 @@
 //menuarea
-let menuareaHTML = '<h2>Links</h2><ul> <li><a href="' + 'dungeon.html">What is a voidco dungeon?</a></li>' + 
-'<li><a href="' + 'crashers.html">Meet the Dungeon Crashers (UNDER CONSTRUCTION!)</a></li>' +
-'<li><a href="' + 'locations.html">Locations of Interest (UNDER CONSTRUCTION!)</a></li>' +
-'<li><a href="' + 'pokemons.html">Pokemon Data (UNDER CONSTRUCTION!)</a></li>' +
+let menuareaHTML = '<h2>Links</h2>' +
+'<ul><li><a href="' + 'index.html">Main page</a></li>' +
+'<li><a href="' + 'dungeon.html">What is a voidco dungeon?</a></li>' + 
+'<li><a href="' + 'crashers.html">Meet the Dungeon Crashers </a> <img src="construct.png" title="Under Construction!" /></li>' +
+'<li><a href="' + 'locations.html">Locations of Interest</a> <img src="construct.png" title="Under Construction!" /></li>' +
+'<li><a href="' + 'pokemons.html">Starter Online Pokedex</a></li>' +
 '<li><a href="' + 'missions.html">Unfinished Missions</a></li>' +
 '<li><a href="' + 'https://mspfa.com/?s=38989&p=1">None Pizza With Left Beef</a></li>' +
 '<li><a href="' + 'https://charcherry-weekly.tumblr.com/">Charcherry Weekly</a></li>' +
@@ -20,10 +22,12 @@ let menuareaHTML = '<h2>Links</h2><ul> <li><a href="' + 'dungeon.html">What is a
 '<li><a href="' + 'http://wertercatt.com/">wetercatt\'s Website</a></li>';
 
 //icmenuarea
-let icmenuareaHTML = '<h2>Links</h2><ul> <li><a href="' + 'dungeon.html">What is a voidco dungeon?</a></li>' + 
-'<li><a href="' + 'crashers.html">Meet the Dungeon Crashers (UNDER CONSTRUCTION!)</a></li>' +
-'<li><a href="' + 'locations.html">Locations of Interest (UNDER CONSTRUCTION!)</a></li>' +
-'<li><a href="' + 'pokemons.html">Pokemon Data (UNDER CONSTRUCTION!)</a></li>' +
+let icmenuareaHTML = '<h2>Links</h2>' +
+'<ul><li><a href="' + 'index.html">Main page</a></li>' +
+'<li><a href="' + 'dungeon.html">What is a voidco dungeon?</a></li>' + 
+'<li><a href="' + 'crashers.html">Meet the Dungeon Crashers </a> <img src="construct.png" title="Under Construction!" /></li>' +
+'<li><a href="' + 'locations.html">Locations of Interest</a> <img src="construct.png" title="Under Construction!" /></li>' +
+'<li><a href="' + 'pokemons.html">Starter Online Pokedex</a></li>' +
 '<li><a href="' + 'missions.html">Unfinished Missions</a></li>' +
 '<li><a href="' + 'https://mspfa.com/?s=38989&p=1">None Pizza With Left Beef</a></li>' +
 '<li><a href="' + 'https://charcherry-weekly.tumblr.com/">Charcherry Weekly</a></li>' +

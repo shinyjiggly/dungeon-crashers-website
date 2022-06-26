@@ -1,10 +1,10 @@
 /* style */
 :root{
-  --header-bg-color: #9bbc0f;
-  --bg-color-light: #afc93e;
+  --header-bg-color: #bacafe;
+  --bg-color-light: #ffc0f2;
   --header-text-color: #0f380f;
   --text-color: #000;
-  --bg-color:	#bbbbbb;
+  --bg-color:	#ff8be7;
   --btn-color: #bbbbbb;
   --header-size: 36px;
   --header-weight: 600;
@@ -17,6 +17,7 @@
 /* nav style */
 .navbar-light{
   background-color:	var(--header-bg-color);
+  background-image: url(../img/topclouds.png);
 }
 
 .navbar-brand{
