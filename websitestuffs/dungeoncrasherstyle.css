@@ -41,7 +41,7 @@ ul {
 .mainbox
 {
 	background-color: #2b4875;
-	background-image: linear-gradient(#2b4875, black);
+	background-image: linear-gradient(#2b4875, #041b3e);
 	border: 3px double #a5a5df;
 	border-radius: 5px;
 	width: 650px;
@@ -60,6 +60,7 @@ ul {
 	.biobox
 {
 	background-color: #2b4875;
+		background-image: linear-gradient(#253d61, #35588e);
 	border: 3px single #a5a5df;
 	border-radius: 5px;
 	width: 630px;
