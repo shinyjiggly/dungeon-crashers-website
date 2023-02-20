@@ -30,13 +30,14 @@ ul {
 	background-color: #2b4875;
 	background-image: linear-gradient(#2b4875, black);
 	border: 3px double #a5a5df;
-	padding: 10px;
+	padding: 10px; /* was 10 */
 	border-radius: 5px;
 	text-align: left;
 	margin-left: auto;
 	margin-right: auto;
 	float: left;
 	color: white;
+	list-style-type: none; 
 }
 .mainbox
 {
