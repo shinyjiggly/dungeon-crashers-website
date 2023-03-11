@@ -724,3 +724,75 @@ body {
 .mspfa .rate button.down.lit, .mspfa .rate input[type=button].down.lit {
 	background-image: url(/images/downvote.png);
 }
+/* bullshit down here */
+
+
+body {
+  background-color: #888888;
+  background-image: linear-gradient(silver, #535353);
+  background: silver;
+  background: linear-gradient(silver, #535353);
+  }
+  
+  .spoiler.open {
+  background-color: #ffffff;
+  }
+  
+  .spoiler-wrapper {
+  width: 640px;
+  overflow-x: visible;
+  display: flex;
+  }
+
+.spoiler-wrapper .spoiler {
+    height: fit-content;
+    min-height: 640px;
+    width: 27px;
+    box-sizing: border-box;
+    display: inline-flex;
+    margin-right: 2px;
+    flex-shrink: 0;
+    overflow: visible;
+}
+
+.spoiler-wrapper .spoiler.open {
+    width: fit-content;
+}
+
+.spoiler-wrapper .spoiler img {
+    max-width: none;
+}
+
+.spoiler-wrapper .spoiler div:first-child {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2px;
+}
+
+.spoiler-wrapper .spoiler div:first-child input {
+    transform: rotate(-90deg);
+}
+
+.spoiler-wrapper .spoiler div:last-child {
+    display: block;
+    visibility: hidden;
+}
+
+.spoiler-wrapper .spoiler.open div:last-child {
+    visibility: visible;
+}
+/*
+.p187 #image {
+    width: 640px;
+    height: 480px;
+    display: inline-block;
+    background-image: url("https://i.imgur.com/ceBFY4o.png\");
+    margin: 0 -25px;
+}
+ .p187 #image:hover {
+    background-image: url("https://i.imgur.com/qgKtYQI.png\");
+ } 
+ I don't know why but this isn't working
+ */
