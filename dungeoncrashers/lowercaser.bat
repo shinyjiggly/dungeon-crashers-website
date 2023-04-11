@@ -1,0 +1,3 @@
+ren *.PNG *.png
+
+pause

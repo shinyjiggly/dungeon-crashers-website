@@ -99,3 +99,57 @@ ul {
   clear: both;
   background-position: bottom;
 }
+
+/* pesterlog crap*/
+
+  .block {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #358;
+  border: 1px dashed gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: left;
+} 
+  .pesterlog {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: courier, monospace;
+  color: #000000;
+}
+
+   
+  .black { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #000000; }
+  .black-plain { color: #000000; }
+    
+  .shiny { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #cb7de6; }
+  .shiny-plain { color: #cb7de6; }
+    
+  .blaze { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #cc6111; }
+  .blaze-plain { color: #cc6111; }
+    
+  .jovin { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #c6bc9f; }
+  .jovin-plain { color: #c6bc9f; }
+    
+  .nick { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #c8a8cd; }
+  .nick-plain { color: #c8a8cd; }
+    
+  .katie { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #ff0000; }
+  .katie-plain { color: #ff0000; }
+    
+  .charles { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #0080ff; }
+  .charles-plain { color: #0080ff; }
+    
+  .delta { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #ff8000; }
+  .delta-plain { color: #ff8000; }
+    
+  .mab { font-size: 14px; font-weight: bold; font-family: courier, monospace; color: #351fbc; }
+  .mab-plain { color: #621fbc; }
+    
+    
+
+
+
