@@ -39,10 +39,10 @@ let icmenuareaHTML = '<h2>Links</h2><br>' +
 '<a href="' + 'spaceport-mall.shop">Spaceport Website</a><br>' ;
 
 //header
-let headerHTML = '<a href="index.html"><img src="https://jingloria.wertercatt.com/dungeoncrashers/sitelogo.png" alt="SBARG 2.5: Dungeon Crashers"></a>' ;
+let headerHTML = '<a href="index.html"><img src="/dungeoncrashers/sitelogo.png" alt="SBARG 2.5: Dungeon Crashers"></a>' ;
 
 //footer
-let footerHTML = '<br><hr><br><p>site made by shinyJiggly, photos from Unsplash ((special thanks to ifelse95 and wertercatt))</p>' ;
+let footerHTML = '<br><hr><br><p>site made by shinyJiggly, photos from Unsplash, special thanks to ifelse95 and wertercatt</p>' ;
 
 //check icMode
 const urlParams = new URLSearchParams(document.location.search.substring(1));
