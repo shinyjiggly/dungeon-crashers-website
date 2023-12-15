@@ -18,6 +18,7 @@ let menuareaHTML = '<h2>Links</h2>' +
 '<a href="' + '/dungeon-crashers-website/dungeoncrashers/starterclock.html">Current Time</a><br>' +
 '<a href="' + 'https://discord.gg/Ykh6hrf">Join our discord server!</a><br>' +
 '<a href="' + '/dungeon-crashers-website/dungeoncrashers/ooc_logs.html">Logs</a><br>' +
+'<a href="' + '/dungeon-crashers-website/dungeoncrashers/travelsim.html">Dungeon Crashers Travelsim</a><br>' +
 '<a href="' + 'http://jingloria.wertercatt.com/lostpawns/">Lost Pawns Website</a><br>' + 
 '<a href="' + 'http://www.ifelse95.xyz/index.html">ifelse95\'s Website</a><br>' + 
 '<a href="' + 'http://wertercatt.com/">wetercatt\'s Website</a><br>';
