@@ -10,7 +10,8 @@ let menuareaHTML = '<h2>Links</h2>' +
 '<a href="' + 'https://charcherry-weekly.tumblr.com/">Charcherry Weekly</a><br>' +
 '<a href="' + '/dungeon-crashers-website/dungeoncrashers/friend.html">look at my pokemon</a><br>' +
 '<hr><hr>' +
-'<h2>The Duct-tape Zone</h2><a href="' + 'ooc_dtape.html">...Duct tape?</a><br>' + 
+'<h2>The Duct-tape Zone</h2>'+
+'<a href="' + 'ooc_dtape.html">...Duct tape?</a><br>' + 
 '<a href="' + '/dungeon-crashers-website/dungeoncrashers/ooc_pokencounter.html">Pokemon Encounter Generator</a><br>' +
 '<a href="' + '/dungeon-crashers-website/dungeoncrashers/ooc_systems.html">Systems used for combat and such</a><br>' +
 '<a href="' + 'https://letssosl.boards.net/">Let\'s SOSL Forums</a><br>' +
