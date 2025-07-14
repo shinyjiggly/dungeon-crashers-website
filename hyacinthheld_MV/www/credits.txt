@@ -1,0 +1,313 @@
+HyacinthHeld - Credits
+demo build for july 14th, 2025
+
+A game made by:
+Lightmage Studios
+
+writing--
+lavenderSiren
+werterCatt
+purpleTiger
+skyeM
+frozenLake
+awesomeCrawfish
+foolishFool
+couragousScribe
+(and probably some others as well)
+
+Visuals-
+
+Most of the art:
+lavenderSiren
+
+visual rips used:
+pokemon r/s/e tileset and overworld sprites
+Alterniabound (heavily edited bases to fit that sprite style)
+RPG Maker 2003 runtime package indoor tileset/overworld sprites
+that dancing banana gif
+
+most photos from:
+Unsplash
+
+photo of aldgate east taken by Skye
+
+tiny long train: based off the Class 315 in Network SouthEast livery drawn by Mangoslyce, having been recolored by skye https://commons.m.wikimedia.org/wiki/File:Class_315_in_Network_SouthEast_livery.png
+under the Creative Commons Attribution-Share Alike 4.0 International license
+
+transparent Stand arrow.png 
+
+that scrap of map taped to the map of the greater shoreport area is from an official map of the sword coast from D&D 5th edition
+the playersheets were also from D&D 5e, filled out by werterCatt and purpleTiger
+
+https://sketchfab.com/3d-models/giratina-f738da969af44a17abca7daebb70bffc this was used as a drawing reference
+
+photo of a double decker bus from https://circleoflondon.blogspot.com/ (the last post mentions they moved but the new site is gone so this is all that remains)
+
+Music--
+
+Altar of Darkness - official remaster from the 2k3 RTP OST
+That vaporwave remix of Diana Ross's It's Your Move - by macintosh plus - from Floral Shoppe
+Aggrieve(violin refrain) - from Homestuck volume 1-4
+AnteMatter - from Midnight Crew: Drawing Dead
+ASSAULT - from Homestuck volume 9
+"A Tenderized Moment" - a messed up remix of Toby Fox's "A Tender Moment" from Homestuck Volume 6 - by lavenderSiren
+Awakening - from Homestuck Volume 7
+Battle Against an Unfathomable Foe - from Homestuck volume 9
+Lotus - from Homestuck Volume 5
+Three in the Morning (Aftermath) - from Homestuck volume 9
+Blackest Heart - from Homestuck Volume 6
+"Keeping up - Theme of Boss Battle" remix - by lavenderSiren
+Serenade - by petet (BotB 29645)
+a new task - by Robyn (BotB 29801)
+Bridge of Stars - from Homestuck volume 9
+Cancerous Core - by Erik "Jit" Steele - from One Year Older
+Castle Vein - beta version of Castle from Homestuck volume 9 - by Buzinkai
+Consonant Conquest - from Land of Fans and Music 5
+Core of Darkness - by Jeremy "Solatrus" Iamurri - from Prospit and Derse
+Corperate Style Stealth - by wax (original!)
+Cross Examination Modereto 2007 - a soundfonted midi conversion of a rip from Ace Attorney 4
+Dance of Entropy - from Land of Fans and Music 5
+Dark Chao Garden - ripped from Sonic Adventure 2
+Darkened Streets  - by Jeremy "Solatrus" Iamurri - from Prospit and Derse
+Waking the Beast [Denizen Encounter] - from SBURB OST
+Despot  - from Homestuck volume 9
+Dictator - from Land of Fans and Music 5 act 2
+Dreamers and The Dead - from Alterniabound
+Eldritch - from The Felt
+Eldritch Murmurs [Horrorterrors] - from SBURB OST
+eleventh hour - from Beyond Canon
+a soundfonted midi of Rob Diaz-Marino's "Heart of the Creator" - from the Dragon Tek OST (decided not to use Endless Heart)
+Fallen - an unreleased track by Erik "Jit" Steele
+Fill 'em with Daylight (YD Club Mix) - from Land of Fans and Music 5 act 2
+Fond Regard - from Land of Fans and Music 4
+Jake's Funeral - an unreleased track by Toby Fox
+Godfight [PvP] - from SBURB OST
+Havoc to be Wrought - from Homestuck Volume 7
+Hope Remains - from Land of Fans and Music 3
+I Am All Of Me - from the Shadow The Hedgehog OST
+Intermission - from Land of Fans and Music 4
+Light in the Darkness - from Land of Fans and Music 5 act 2
+Lilith - from Land of Fans and Music 5 act 2
+Make a Wish - from Strife!
+Hard Mode battle theme - By Toby Fox - from the Undertale OST
+Dog Room - by Toby Fox - from the Undertale OST
+Here We Are - by Toby Fox - from the Undertale OST
+King Asgore - by Toby Fox - from the Undertale OST
+"leave" - by Toby Fox - from the Undertale OST
+An Ending - by Toby Fox - from the Undertale OST
+"st_him" - by Toby Fox - from the Undertale OST
+Null - by Mark Hadley - from Song of Skaia 
+Obsidian Towers - by Jeremy "Solatrus" Iamurri - from Prospit and Derse
+Ocean Stars - from Squiddles!
+Paitient - an unreleased track by Toby Fox
+"Peanut Butter Jelly Time" - sang by lavenderSiren (so nobody else would have to)
+Pendulum - from coloUrs and mayhem: Universe B
+Phantasmagoric Waltz - from Homestuck volume 5
+Pink Shells - by Alexander Rosetti - from Genesis Frog
+a soundfonted midi of Mt. Pyre - from the Pokemon RSE OST
+Power Fantasy - from Cherubim
+Quest Crypt - from Land of Fans and Music 4
+Respit - by Erik "Jit" Steele - from One Year Older
+Retconjuration - from Land of Fans and Music 4
+Sburban Reversal - from Homestuck Volume 7
+End of an Old Era - by lavenderSiren
+Shade - by Clark "Plazmataz" Powell - from Medium
+a soundfonted midi version of Shop 3 - from the RPG Maker 2000 RTP OST
+Voidlight- from Homestuck volume 10
+Staring - by Toby Fox - from Alternia
+Stress - from Homestuck volume 9
+Strudent Sburban Serenata - from Land of Fans and Music 5 act 2
+STRIFE! [Battle] - from SBURB OST
+Teal Seer- from coloUrs and mayhem: Universe A
+The Broken Clock - from The Felt
+The Changing Game - from Homestuck volume 9
+The Scratch Before The Calm - from Beforus
+a soundfonted midi version of Shop 3 - from the RPG Maker XP RTP OST
+Turnabout/Interlude - from Beyond Canon
+Voided - from Beforus
+Waltz for Caliope - from Land of Fans and Music 4
+What a Daring Dream - from The Wanderers
+With Loss Comes Victory - by lavenderSiren
+a soundfonted and edited midi of TM Get! - from the Pokemon RSE OST
+You Won a Combat - from Alterniabound
+
+Sounds--
+sounds 001-180 - from the RPG Maker XP RTP
+AAAAAGH - voiced by lavenderSiren (so nobody else would have to)
+aglowne - voiced by lavenderSiren
+Attack3 - from the RPG Maker 2000 RTP
+bag - custom by lavenderSiren
+Battle1- from the RPG Maker 2000 RTP
+bing - custom by lavenderSiren
+bingbong - custom by lavenderSiren
+bip - custom by lavenderSiren
+Blow3 - from the RPG Maker 2000 RTP
+BUNP/pkmn_bunmp - from the pokemon series
+burp - unknown
+Buzzer1 - from the RPG Maker 2000 RTP
+Cancel2 - from the RPG Maker MV? RTP
+cedric - voiced by lavenderSiren
+All chao noises are from an obscure sonic fighting game (because nobody bothered to post the sonic adventure chao rips)
+charles - voice by themself
+Collapse1-4 - from the RPG Maker MV? RTP
+cursoir  - custom by lavenderSiren
+Cursor1 - from the RPG Maker 2000 RTP
+Cursor 2 - from the RPG Maker MV RTP
+Damage 1-3 - from the RPG Maker 2000 RTP
+Damage4+5 - from the RPG Maker VX Ace RTP
+Decision1 - from the RPG Maker MV RTP
+Down1-4 - from the RPG Maker MV RTP (though probably some from 2000 in there as well)
+elvopen - custom by lavenderSiren
+emote confuse - custom by lavenderSiren
+emote flush - custom by lavenderSiren
+emote note - custom by lavenderSiren
+emote question - based heavily off the question noise from animal crossing
+Emolga cry - from Pokemon Black/White
+Equip1 - from the RPG Maker VX Ace RTP
+Evasion1 - from the RPG Maker 2000 RTP
+Evasion2- from the RPG Maker VX Ace RTP
+exit - custom by lavenderSiren
+Explosion1-5 - likely all from the RPG Maker 2000 RTP
+Fall - same as 014-move02 (from the RPG Maker XP RTP)
+Fire 1-6 - from the RPG Maker 2000 RTP
+Gengar cry - from Pokemon Red/Blue
+Giratina cry - from Pokemon Diamond/Pearl/Platinum
+grinner - voiced by lavenderSiren
+gustav - voiced by lavenderSiren
+Hammer - from the RPG Maker VX Ace(?) RTP
+Heal3 - from the RPG Maker 2000 RTP
+homerun bat - From Super Smash Bros
+honkhonk - custom by lavenderSiren
+Hyacinth - voice by Pie
+Ice2 - from the RPG Maker 2000 RTP
+Item3 - from the RPG Maker 2000(?) RTP
+Jump - from the RPG Maker 2000 RTP
+Text done - from Link's Awakening
+Text letter - from Link's Awakening
+Leta - voiced by lavenderSiren
+Load - from the RPG Maker MV RTP
+Bell - from the RPG Maker 2000 RTP
+metalicvoing - custom by lavenderSiren
+Miss - from the RPG Maker 2000 RTP
+"Move1" - custom by lavenderSiren
+Mudkip cry - from Pokemon Ruby/Sapphire
+everything with mus_ at the beginning in the SE folder - by Toby Fox - from Undertale
+Nick - voiced by themself
+nono - custom by lavenderSiren
+ouaaaaaaagh_7 - voice by Pie
+peelout - from the older sonic games
+Percussion clap - from Puyo Pop Fever
+Pesterchum Message and Cease - by Michael Guy Bowman
+Pesterchum memobeep - unknown (was found with the pesterchum program)
+everything with pkmn_ at the beginning - from various pokemon games
+"psuedodylan" - voiced by lavenderSiren
+pushthing - custom by lavenderSiren
+Ralts cry  - from Pokemon Ruby/Sapphire
+Recovery - from the RPG Maker 2000 RTP
+Reflection - from the RPG Maker VX Ace(?) RTP
+Run - from the RPG Maker 2000 RTP
+Saint2 - from the RPG Maker 2000 RTP
+samm - voiced by lavenderSiren
+Save - from the RPG Maker MV RTP
+shatter - from the RPG Maker 2000 RTP
+Shop1 - from the RPG Maker MV RTP
+Dot Matrix Printer - from viertelnachvier of Freesound
+Shot1 - from the RPG Maker 2000 RTP
+Shot2 - from the RPG Maker 2000 RTP
+master shot - voiced by lavenderSiren
+shower curtain open hard - by unknown of pixibay
+Skye - voice by herself
+Slash1 - from the RPG Maker 2000 RTP
+spin jump - from Super Mario World
+everything with dnd_ at the beginning in the SE folder - by Toby Fox - from Undertale (except snd_dylanbip)
+Sponge - voiced by rechargedNintendo
+Sword2 - from the RPG Maker 2000 RTP
+Sword5 - from the RPG Maker 2000 RTP
+Thunder1 - from the RPG Maker 2000 RTP
+vvvrevup - custom by lavenderSiren
+walkytalky - custom by lavenderSiren
+whipplofi - custom by lavenderSiren
+Wind4 - from the RPG Maker 2000 RTP
+Wind7 - from the RPG Maker 2000 RTP
+Wingull cry - from Pokemon Ruby/Sapphire
+
+Plugins--
+
+SumRndmDde:
+Camera Core
+Undertale Battle system
+Shaking Text
+Timed Attack Core
+CE Battle Intro
+
+Mac15001900:
+Run Nearby Event
+
+nz_prism:
+CustomLogo
+
+DrDhoom:
+Dhoom Message SE
+
+Galv:
+Layer Graphics
+Cursor Image (animated menu cursor)
+Stationary Turn
+Collide SE
+Puzzle Functions
+
+mugen808:
+Simple Water Refelection
+
+Yanfly:
+Core Engine
+Event Chase Player
+Message Core
+Move Route Core
+Region Restrictions
+
+Tyruswoo and McKathlin:
+Follower Control
+
+Yoji Ojima:
+Novel Message(ft. Sasuke KANNAZUKI)
+Title Command Position
+Alt Save Screen
+
+Neon Black:
+Large Sprite Fix (ft. Shaz)
+Star Passability Fix
+
+Hime:
+Save Title
+Large Choices
+Hidden Choice Conditions
+Game Over Events
+
+Caethyril:
+Balloon speed
+Slope Move
+
+Yami:
+8dir Movement
+
+Fallen Angel Olivia:
+Meta Controls
+
+Atreyo Ray:
+Title Command- Exit
+
+Jeneeus Guruman:
+Change Graphic
+
+Shaz:
+Looping Animations
+
+Yorae Rasante:
+Load Call CE
+
+Mr. Trivel:
+No item categories
+
+Unagi Ootoro:
+Smooth Camera
