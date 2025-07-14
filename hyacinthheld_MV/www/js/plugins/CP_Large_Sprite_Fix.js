@@ -62,7 +62,7 @@
       ([108,408].indexOf(cmd.code) > -1 && cmd.parameters[0].match(/<large sprite>/i));
     });
   }
-};
+//};
   var _Game_Map_setup = Game_Map.prototype.setup;
   Game_Map.prototype.setup = function(mapId) {
     _Game_Map_setup.call(this, mapId);
