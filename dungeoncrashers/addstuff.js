@@ -21,9 +21,9 @@ let menuareaHTML = '<h2>Links</h2>' +
 '<a href="' + 'https://discord.gg/Ykh6hrf">Join our discord server!</a><br>' +
 '<a href="' + '/dungeoncrashers/ooc_logs.html">Logs</a><br>' +
 '<a href="' + '/dungeoncrashers/travelsim.html">Dungeon Crashers Travelsim</a><br>' +
+'<a href="' + 'https://lavendersiren.neocities.org/">My other website</a><br>' +
 '<a href="' + 'https://sbarg.miraheze.org/wiki/Main_Page">SBARG Wiki</a><br>' +
 '<a href="' + 'http://jingloria.x10.mx/lostpawns/">Lost Pawns Website</a><br>' + 
-'<a href="' + 'http://www.ifelse95.xyz/index.html">ifelse95\'s Website</a><br>' + 
 '<a href="' + 'https://linktr.ee/wertercatt">wetercatt\'s Website</a><br>';
 
 //icmenuarea
@@ -39,7 +39,8 @@ let icmenuareaHTML = '<h2>Links</h2><br>' +
 '<a href="' + 'https://charcherry-weekly.tumblr.com/">Charcherry Weekly</a><br>' +
 '<a href="' + '/dungeoncrashers/friend.html">look at my pokemon</a><br>' +
 '<hr>' +
-'<h2>Other Links</h2><a href="' + 'http://jingloria.wertercatt.com/">Jingloria Website</a><br>' + 
+'<h2>Other Links</h2>' +
+'<a href="' + 'http://jingloria.x10.mx/">Jingloria Website</a><br>' + 
 '<a href="' + 'desertia.robotics">Desertia Website</a><br>' +
 '<a href="' + 'https://sbarg.miraheze.org/wiki/In:Main_Page">SBARG Wiki</a><br>' +
 '<a href="' + 'spaceport-mall.shop">Spaceport Website</a><br>' ;
@@ -48,7 +49,7 @@ let icmenuareaHTML = '<h2>Links</h2><br>' +
 let headerHTML = '<a href="index.html"><img src="/dungeoncrashers/sitelogo.png" alt="SBARG 2.5: Dungeon Crashers"></a>' ;
 
 //footer
-let footerHTML = '<br><hr><br><p>site made by shinyJiggly, photos from Unsplash, special thanks to ifelse95 and wertercatt</p>' ;
+let footerHTML = '<br><hr><br><p>site made by shinyJiggly, photos from Unsplash, special thanks to plushsharks and wertercatt</p>' ;
 
 //check icMode
 const urlParams = new URLSearchParams(document.location.search.substring(1));
