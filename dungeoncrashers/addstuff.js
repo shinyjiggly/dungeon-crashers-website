@@ -24,7 +24,7 @@ let menuareaHTML = '<h2>Links</h2>' +
 '<a href="' + 'https://lavendersiren.neocities.org/">My other website</a><br>' +
 '<a href="' + 'https://sbarg.miraheze.org/wiki/Main_Page">SBARG Wiki</a><br>' +
 '<a href="' + 'http://jingloria.x10.mx/lostpawns/">Lost Pawns Website</a><br>' + 
-'<a href="' + 'https://linktr.ee/wertercatt">wetercatt\'s Website</a><br>';
+'<a href="' + 'https://woosh.link/wertercatt.com">wetercatt\'s links</a><br>';
 
 //icmenuarea
 let icmenuareaHTML = '<h2>Links</h2><br>' +
